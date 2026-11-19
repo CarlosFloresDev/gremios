@@ -1,0 +1,18 @@
+{
+	"schemaVersion": 1,
+	"id": "gremios-gametest",
+	"version": "1.0.0",
+	"name": "Gremios - Pruebas",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-gametest": [
+			"com.aventura.gremios.test.GremiosGameTests"
+		],
+		"fabric-client-gametest": [
+			"com.aventura.gremios.test.GremiosClientTests"
+		]
+	},
+	"depends": {
+		"gremios": "*"
+	}
+}

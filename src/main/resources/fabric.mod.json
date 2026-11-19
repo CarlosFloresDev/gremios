@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "gremios",
+	"version": "${version}",
+	"name": "Gremios",
+	"description": "Equipos de jugadores (gremios) con panel (tecla K): rangos, chat interno, etiqueta [TAG] de color, base, banco compartido y fuego amigo.",
+	"authors": ["chefsitturchey"],
+	"license": "CC0-1.0",
+	"icon": "assets/gremios/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.aventura.gremios.GremiosMod"],
+		"client": ["com.aventura.gremios.client.GremiosClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
