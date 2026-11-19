@@ -41,3 +41,4 @@ replay_*.log
 
 # servidor de pruebas local
 run-servidor/
+*.log
